@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!--tailwind link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <!--Link for fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!--Link for Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!--Link for logo-->
+    <link rel="icon" href="./images/logo.png">
+    <!--Link with CSS-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--Offer box -- Section-1-->
+    <section class="offerbox">
+        <p>sign Up and <b> GET 20% OFF </b>for your first order</p>
+        <p id="offerbox__X"><b>X</b></p>
+    </section>
+    <!--Nav bar--Mobile -- Section-2-->
+    <nav id="navbar-mobile">
+        <h1><b>Nostra</b></h1>
+        <img src="./images/menu.png" alt="Menu image" id="navimage">
+    </nav>
+    <div id="navbar-mobile__side">
+        <h2 id="navbar-side__X">X</h2>
+        <p><a href="./index.html">Home</a> </p>
+        <p><a href="./index.html#arrivals">New Arrival</a> </p>
+        <p><a href="./index.html#mostwanted">Most Wanted</a> </p>
+        <p><a href="./collections.html">Collections</a> </p>
+        <p><a href="./contact.html">Contact</a> </p>
+
+    </div>
+    <!--Nav bar -- Desktop -- section-2-->
+    <nav id="navbar-desktop">
+        <div id="navbar-dekstop__brand">
+            <h1><b>Nostra</b></h1>
+        </div>
+        <div id="navbar-desktop__options">
+            <p><a href="./index.html">Home</a></p>
+            <p><a href="./index.html#arrivals">New Arrival</a></p>
+            <p><a href="./index.html#mostwanted">Most Wanted</a></p>
+            <p><a href="./collections.html">Collections</a></p>
+            <p><a href="./contact.html">Contact</a></p>
+        </div>
+
+    </nav>
+    <!--Contact us-->
+    <div id="contact__container">
+        <div id="contact">
+            <h1><b>Contact Us</b></h1>
+            <h3><b>Name :</b></h3><br>
+            <input type="text" id="namee" required><br><span class="text-red-600 " id="nameerror">Enter a valid name</span><br>
+            <h3><b>Email :</b></h3><br>
+            <input type="text" id="mail" required><br><span class="text-red-600 " id="mailerror">Enter a valid Mail address</span><br>
+            <h3><b>Meassage :</b></h3><br>
+            <textarea id="msg" required></textarea><br><br>
+            <button class="bg-green-500 p-2 rounded-md w-28" id="submitbtn"><b>Submit</b></button>
+        </div>
+    </div>
+     <!--News letter-->
+     <div id="newsletter">
+        <h1><b>Join our News Letter</b></h1>
+        <p>Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+        <input type="text">
+        <button class="bg-black text-white p-2 rounded-md">Subscribe <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></button>
+    </div>
+    <!--Footer-->
+    <div id="footer">
+        <div id="footer__desc">
+       <h1><b>Nostra</b></h1> 
+       <p>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</p>
+       <div id="footer__icons">
+        <i class="fa-brands fa-instagram"></i>
+       <i class="fa-brands fa-twitter"></i>
+       <i class="fa-brands fa-facebook"></i>
+    </div>
+       <p>&copy; 2025 Nostra.com</p>
+    </div>
+    </div>
+    <!--Link with JS-->
+    <script src="./contact.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>collections</title>
+    <!--tailwind link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <!--Link for fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!--Link for Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!--Link for logo-->
+    <link rel="icon" href="./images/logo.png">
+    <!--Link for css-->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!--Offer box -- Section-1-->
+    <section class="offerbox">
+        <p>sign Up and <b> GET 20% OFF </b>for your first order</p>
+        <p id="offerbox__X"><b>X</b></p>
+    </section>
+    <!--Nav bar--Mobile -- Section-2-->
+    <nav id="navbar-mobile">
+        <h1><b>Nostra</b></h1>
+        <img src="./images/menu.png" alt="Menu image" id="navimage">
+    </nav>
+    <div id="navbar-mobile__side">
+        <h2 id="navbar-side__X">X</h2>
+        <p><a href="./index.html">Home</a> </p>
+        <p><a href="./index.html#arrivals">New Arrival</a> </p>
+        <p><a href="./index.html#mostwanted">Most Wanted</a> </p>
+        <p><a href="./collections.html">Collections</a> </p>
+        <p><a href="./contact.html">Contact</a> </p>
+
+    </div>
+    <!--Nav bar -- Desktop -- section-2-->
+    <nav id="navbar-desktop">
+        <div id="navbar-dekstop__brand">
+            <h1><b>Nostra</b></h1>
+        </div>
+        <div id="navbar-desktop__options">
+            <p><a href="./index.html">Home</a></p>
+            <p><a href="./index.html#arrivals">New Arrival</a></p>
+            <p><a href="./index.html#mostwanted">Most Wanted</a></p>
+            <p><a href="./collections.html">Collections</a></p>
+            <p><a href="./contact.html">Contact</a></p>
+        </div>
+
+    </nav>
+    <!--Collection divide into two-->
+    <div id="collections">
+        <div id="collections__rightside">
+            <div id="collections__occasion">
+                <h1><b>Occasion</b></h1>
+                <div id="occasion__check">
+                    <div><input type="checkbox" name="tags" value="beach" data-type="occasions">Beach</div>
+                    <div><input type="checkbox" name="tags" value="party"data-type="occasions" >Party</div>
+                    <div><input type="checkbox" name="tags" value="summer" data-type="occasions">Summer</div>
+                </div>
+            </div>
+            <div id="collections__colors">
+                <h1><b>Colors</b></h1>
+                <div id="colors__check">
+                    <div> <input type="checkbox" name="tags"value="blue" data-type="colors">Blue</div>
+                    <div><input type="checkbox" name="tags"value="green" data-type="colors">Green</div>
+                    <div> <input type="checkbox"  name="tags"value="pink" data-type="colors">Pink</div>
+                    <div><input type="checkbox" name="tags" value="yellow" data-type="colors">Yellow</div>
+                </div>
+            </div>
+            <div id="collections__arrivals">
+                <h1><b>Arrivals</b></h1>
+                <div id="arrivals__check">
+                    <div><input type="checkbox" name="tags" value="new" data-type="arrivals">New</div>
+                    <div><input type="checkbox" name="tags" value="old" data-type="arrivals">Old</div>
+                </div>
+            </div>
+        </div>
+        <div id="collections__leftside">
+            <div id="search">
+                <input type="text" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass pr-3"></i>
+            </div>
+            <div id="collections__items" class="product">
+                <div class="product__image" data-occasions="beach" data-colors="yellow" data-arrivals="new">
+                    <img src="./images/collections1.jpg" alt="Images">
+                    <h3><b>Beach Floral Shirt</b></h3>
+                    <p>₹220</p>
+                </div>
+                <div class="product__image" data-occasions="summer" data-colors="blue" data-arrivals="old">
+                    <img src="./images/collections4.jpg" alt="Images">
+                    <h3><b>Floral Shirt</b></h3>
+                    <p>₹270</p>
+                </div>
+                <div  class="product__image" data-occasions="beach" data-colors="green" data-arrivals="new">
+                    <img src="./images/collections8.jpg" alt="Images">
+                    <h3><b>Vantian Shorts</b></h3>
+                    <p>₹250</p>
+                </div>
+                <div  class="product__image" data-occasions="party" data-colors="pink" data-arrivals="new">
+                    <img src="./images/collections2.jpg" alt="Images">
+                    <h3><b>Casual Shirt</b></h3>
+                    <p>₹310</p>
+                </div>
+                <div  class="product__image" data-occasions="party" data-colors="blue" data-arrivals="old">
+                    <img src="./images/collections5.jpg" alt="Images">
+                    <h3><b>Party Floral Shirt</b></h3>
+                    <p>₹299</p>
+                </div>
+                <div  class="product__image" data-occasions="summer" data-colors="blue" data-arrivals="new">
+                    <img src="./images/collections6.jpg" alt="Images">
+                    <h3><b>Summer Wear</b> </h3>
+                    <p>₹240</p>
+                </div>
+                <div  class="product__image" data-occasions="party" data-colors="yelow" data-arrivals="old">
+                    <img src="./images/collections7.jpg" alt="Images">
+                    <h3><b>Ligre Shirt</b></h3>
+                    <p>₹320</p>
+                </div>
+                <div  class="product__image" data-occasions="beach" data-colors="green" data-arrivals="old">
+                    <img src="./images/collections3.jpg" alt="Images">
+                    <h3> <b>Party Wear</b></h3>
+                    <p>₹189</p>
+                </div>
+                <div  class="product__image" data-occasions="summer" data-colors="pink" data-arrivals="new">
+                    <img src="./images/collections9.jpg" alt="Images">
+                    <h3><b>Beach Shirt</b></h3>
+                    <p>₹250</p>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!--News letter-->
+     <div id="newsletter">
+        <h1><b>Join our News Letter</b></h1>
+        <p>Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+        <input type="text">
+        <button class="bg-black text-white p-2 rounded-md">Subscribe <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></button>
+    </div>
+    <!--Footer-->
+    <div id="footer">
+        <div id="footer__desc">
+       <h1><b>Nostra</b></h1> 
+       <p>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</p>
+       <div id="footer__icons">
+        <i class="fa-brands fa-instagram"></i>
+       <i class="fa-brands fa-twitter"></i>
+       <i class="fa-brands fa-facebook"></i>
+    </div>
+       <p>&copy; 2025 Nostra.com</p>
+    </div>
+    </div>
+    
+    <!--Link with JS-->
+    <script src="./index.js"></script>
+    <script src="./collections.js"></script>
+</body>
+
+</html>
