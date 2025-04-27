@@ -1,31 +1,42 @@
-Nostra Clone
+## Nostra Clone 👕🛒
 
-This is a responsive clone of the Nostra website, built using HTML, CSS, and JavaScript.
-The project focuses on recreating the structure, layout, and responsiveness of the original site without using any external libraries or frameworks.
+This project is a **responsive clone of the Nostra website**, built using **HTML, CSS, and JavaScript**. 
+It includes multiple functionalities to enhance the user experience and works smoothly across all devices.
+
+## ✨ Features
+- Fully **responsive** design (mobile, tablet, desktop)
+  
+- **Product listings** with detailed information
+  
+- **Search and filter** functionality
+  
+- **Add to cart** feature
+  
+- Smooth **navigation** and interactive elements
+  
+- Clean, organized, and easy-to-read code
+- 
+
+## 🛠️ Technologies Used
+
+- **HTML5** for structure
+  
+- **CSS3** for styling and responsiveness
+  
+- **JavaScript (ES6)** for dynamic functionalities
 
 
-Features :
 
-Responsive design for all screen sizes (mobile, tablet, desktop)
+## 🔗 Live Demo
+Check out the live project here: Live : [ https://muthulakshmi-git.github.io/Nostra_clone/ ]
 
-Custom styling using pure CSS
+## 📩 Contact
+  
+**Email:** [ saravanansaravanan395@gmail.com ]
+**LinkedIn :** [ https://www.linkedin.com/in/muthulakshmis1 ]
 
-Basic interactivity with JavaScript
-
-Clean and organized code structure
 
 
-Technologies Used :
 
-HTML5
 
-CSS3
 
-JavaScript (ES6)
-
-Live : [ https://muthulakshmi-git.github.io/Nostra_clone/ ]
-
-Contact :
-
-E-Mail - [ saravanansaravanan395@gmail.com ]
-LinkedIn - [ https://www.linkedin.com/in/muthulakshmis1 ]
