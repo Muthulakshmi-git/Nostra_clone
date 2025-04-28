@@ -125,15 +125,14 @@ body {
 .swipe__images1{
     width: 100%;
     height: 200px;
-    margin-left: 2%;
-    
-   
+    margin-left: 0;
     border-radius: 10px;
 }
 #swipe__image2{
     width: 100%;
     height: 200px;
     border-radius: 10px;
+    margin-left: 15px;
     
 }
 #swipe__image3{
@@ -144,6 +143,7 @@ body {
 }
 #swipe {
     position: relative;
+    overflow: hidden;
 }
 
 #swipe__desc {
@@ -176,15 +176,15 @@ body {
         width: 100%;
     }
     #swipe__image3{
-        margin-left: 30px;
+        margin-left: 40px;
     }
     #swipe__image2{
-        margin-left: 20px;
+        margin-left: 50px;
     }
 
     #swipe__desc {
         margin-left: 9%;
-
+        
     }
 
     #swipe__desc h1 {
