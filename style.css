@@ -158,10 +158,10 @@ body {
 }
 @media screen and (max-width:400px) {
     #swipe__image3{
-        margin-left: 10px;
+        margin-left: 0;
     }
     #swipe__image2{
-        margin-left: 10px;
+        margin-left: 0;
     }
 }
 
