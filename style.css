@@ -132,14 +132,14 @@ body {
     width: 100%;
     height: 200px;
     border-radius: 10px;
-    margin-left: 16px;
+    margin-left: 15px;
     
 }
 #swipe__image3{
     width: 100%;
     height: 200px;
     border-radius: 10px;
-    margin-left: 9px;
+    margin-left: 10px;
 }
 #swipe {
     position: relative;
@@ -156,7 +156,14 @@ body {
     gap: 31px;
 
 }
-
+@media screen and (max-width:400px) {
+    #swipe__image3{
+        margin-left: 10px;
+    }
+    #swipe__image2{
+        margin-left: 10px;
+    }
+}
 
 @media screen and (min-width:680px) {
     #swipe__images {
